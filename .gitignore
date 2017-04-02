@@ -1,3 +1,4 @@
 # ignore all complied js files.
 
 dist
+node_modules/
