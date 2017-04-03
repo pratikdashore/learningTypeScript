@@ -1,9 +1,8 @@
 
 class helloWorld{
-    message : string;
-    constructor (message : string){
-        this.message = message;
-    }
+
+    
+    constructor (public message : string){}
 
     start(){
         console.log(this.message);
@@ -13,4 +12,6 @@ class helloWorld{
 var hello = new helloWorld('Hello TypeScript');
 var test : number = 5;
 hello.start();
-console.log(hello.message);
+var student1 = new student('Dashore','Pratik');
+console.log(student1.height);
+
