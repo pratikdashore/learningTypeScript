@@ -1,4 +1,4 @@
- class student {
+   class student {
 
   public lName : string;
   public fName : string;
@@ -13,15 +13,8 @@
     return this._height;
   }
   
-
-
   constructor(lName : string, fName : string){
     this.lName = lName;
     this.fName = fName;
   }
-
-
-
-  
-
 }
