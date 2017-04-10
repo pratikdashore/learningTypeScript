@@ -1,6 +1,6 @@
    class student {
 
-  public lName : string;
+  public lName? : string;
   public fName : string;
   public id: number;
   private _height:number;
