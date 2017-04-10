@@ -4,19 +4,19 @@ var aNum = 5;
 
 var aString = 'Pratik';
 
-var bString : string = 'Dashore';
+var bString: string = 'Dashore';
 
 var abString = aNum + bString;
 
-var aArray : string[] = ['pratik', 'dashore'];
+var aArray: string[] = ['pratik', 'dashore'];
 
 var aAny;
 
-var aBoolean : boolean = true;
+var aBoolean: boolean = true;
 
-var aNull : number = null;
+var aNull: number = null;
 
-var aUndefined : number  = undefined;
+var aUndefined: number = undefined;
 
 
 
@@ -25,20 +25,20 @@ var aUndefined : number  = undefined;
 
 // Functions, class, module, interface, and literal types
 
-var aObject : Object = {};
+var aObject: Object = {};
 
 ////////////////////// functions /////////////////////////////////
 
 //declaration
-var greetMe : (msg : string, name : string) => void;
+var greetMe: (msg: string, name: string) => void;
 
 //assignment
-greetMe = function(msg : string, name: string) {
+greetMe = function (msg: string, name: string) {
     console.log(msg + ' ' + name);
-}; 
+};
 
 //combined
-var greetUs = ( msg: string, name : string) : void => {
+var greetUs = (msg: string, name: string): void => {
     console.log(msg + ' ' + name);
 }
 
@@ -48,7 +48,8 @@ var greetUs = ( msg: string, name : string) : void => {
 //////////////////////// ambient declaration ///////////////////
 
 
-declare var document : Document;
+declare var document: Document;
+
 
 
 ///////////////////////////// Type Definition files /////////////

@@ -28,7 +28,7 @@ class Car extends Vehicle {
     run = (speed: number): void => {
         if (this.startStatus) {
             console.log('running on ' + speed + ' km/h');
-        }else{
+        } else {
             throw "Car hasn't started;";
         }
 
@@ -48,10 +48,10 @@ var callee = (startStatus: boolean, gear: number): void => {
 }
 
 try {
-car.run(100);    
+    car.run(100);
 } catch (error) {
     console.log(error);
     car.start(callee);
 }
 
-var abc = <Vehicle> car;
+var abc = <Vehicle>car;
