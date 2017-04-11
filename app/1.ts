@@ -19,7 +19,6 @@ var aNull: number = null;
 var aUndefined: number = undefined;
 
 
-
 /////////////////////////// Object types  /////////////////////
 
 

@@ -1,6 +1,7 @@
 interface IVehicle {
     colour: string;
     model: string;
+    brand?: string;
     run: (speed: number) => void;
     details: () => IVehicle;
 }
