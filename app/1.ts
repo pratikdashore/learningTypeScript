@@ -2,7 +2,7 @@
 
 var aNum = 5;
 
-var aString = 'Pratik';
+var aString: any = 'Pratik';
 
 var bString: string = 'Dashore';
 
