@@ -10,6 +10,8 @@ var abString = aNum + bString;
 
 var aArray: string[] = ['pratik', 'dashore'];
 
+var x = aArray[0];
+
 var aAny;
 
 var aBoolean: boolean = true;
@@ -40,6 +42,7 @@ greetMe = function (msg: string, name: string) {
 var greetUs = (msg: string, name: string): void => {
     console.log(msg + ' ' + name);
 }
+
 
 
 
