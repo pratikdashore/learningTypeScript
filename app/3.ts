@@ -35,7 +35,7 @@ class Car extends Vehicle {
 
     }
 
-    start(callBack: (startStatus: boolean, gear: number) => void) {
+    start(callBack: (startStatus: boolean, gear: number) => void): void {
         setTimeout(() => {
             callBack(true, 1);
         }, 1000);
