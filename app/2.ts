@@ -29,15 +29,15 @@ function printMe<T>(arg: T): T {
   return arg;
 }
 
-var numberPrinter: <T>(arg: T) => number = printMe;
+var numberPrinter: <Number>(arg: Number) => Number = printMe;
 
 var xNumber = printMe<number>(100);
 
-class Test<T>{
+class Test<T, U>{
   obj: T;
-  name: string;
+  name: U;
 }
 
-var test = new Test<Student>();
+var test = new Test<Student, string>();
 test.obj = new Student('Pratik', 'Dashore');
 test.name = 'Pratik';
