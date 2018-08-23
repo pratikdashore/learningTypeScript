@@ -20,6 +20,23 @@ var aNull: number = null;
 
 var aUndefined: number = undefined;
 
+var aTupple: [string, number] = ["Pratik", 27];
+aTupple[3] = 33;
+
+// String literal types
+
+var aStringM: "Manager" = "Manager";
+var aStringE: "Employee" = "Employee";
+// very useful when you wants to use as named constraints
+
+var employee: "Manager" | "Employee" = aStringE;
+
+// type aliases
+
+type EmployeeCategory = "Manager" | "Employee";
+
+var employee2: EmployeeCategory = aStringM;
+
 /////////////////////////// Object types  /////////////////////
 
 // Functions, class, module, interface, and literal types
