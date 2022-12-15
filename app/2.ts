@@ -1,4 +1,4 @@
-class student {
+class Student {
 
   public lName?: string;
   public fName: string;
@@ -21,5 +21,23 @@ class student {
 }
 
 
-var student1 = new student('Dashore', 'Pratik', 10);
+var student1 = new Student('Dashore', 'Pratik', 10);
 console.log(student1.height);
+
+function printMe<T>(arg: T): T {
+  console.log(arg);
+  return arg;
+}
+
+var numberPrinter: <Number>(arg: Number) => Number = printMe;
+
+var xNumber = printMe<number>(100);
+
+class Test<T, U>{
+  obj: T;
+  name: U;
+}
+
+var test = new Test<Student, string>();
+test.obj = new Student('Pratik', 'Dashore');
+test.name = 'Pratik';

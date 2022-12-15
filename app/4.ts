@@ -9,7 +9,7 @@ namespace m_4 {
         rollNumber: number;
     }
 
-    interface IEngineer extends IStudent {
+    export interface IEngineer extends IStudent {
         branch: string;
     }
     export class Engineer implements IEngineer {
@@ -28,11 +28,6 @@ namespace m_4 {
         }
     }
 }
-
-
-var engineer = new m_4.Engineer('Pratik', 49, 'E.C.E');
-
-var doctor = new m_4.Doctor('Dashore', 45, 'General Medicine');
 
 
 
