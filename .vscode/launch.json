@@ -10,8 +10,10 @@
       "sourceMaps": true,
       "cwd": "${workspaceRoot}",
       "name": "Launch Program",
-      "program": "${workspaceRoot}/app/11.ts",
-      "outFiles": ["${workspaceRoot}/dist/out-tsc/app/11.js"]
+      "program": "${workspaceRoot}/app/1.ts",
+      "outFiles": [
+        "${workspaceRoot}/dist/out-tsc/app/1.js"
+      ]
     },
     {
       "type": "node",

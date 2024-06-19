@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/pratikdashore/learningTypeScript#readme",
   "devDependencies": {
-    "typescript": "^2.2.2"
+    "typescript": "^5.4.5"
   }
 }

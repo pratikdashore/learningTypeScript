@@ -2,7 +2,7 @@
 
 var aNum = 5;
 
-var aString = "Pratik";
+var aString: string = "Pratik";
 
 var bString: string = "Dashore";
 
@@ -21,7 +21,6 @@ var aNull: number = null;
 var aUndefined: number = undefined;
 
 var aTupple: [string, number] = ["Pratik", 27];
-aTupple[3] = 33;
 
 // String literal types
 
